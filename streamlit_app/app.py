@@ -10,7 +10,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_PATH = os.path.join("..", "models", "final_logreg_pipeline.joblib")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "..", "models", "final_logreg_pipeline.joblib")
+
 model = joblib.load(MODEL_PATH)
 
 st.markdown("""
