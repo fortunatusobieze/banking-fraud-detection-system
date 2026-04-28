@@ -116,7 +116,7 @@ The Streamlit app (`streamlit_app/app.py`) exposes the trained model via a simpl
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/banking-fraud-detection-system.git
+git clone https://github.com/fortunatusobieze/banking-fraud-detection-system.git
 cd banking-fraud-detection-system
 ```
 
@@ -187,6 +187,6 @@ High‑level notes (see notebook for full details):
 
 ## 🙋‍♂️ Acknowledgements
 
-- Module: **Advanced Machine Learning (COM‑763)**, Wrexham University, Wales, United Kingdom.
+- Module: **Advanced Machine Learning**, Wrexham University, Wales, United Kingdom.
 - Streamlit Community Cloud for free hosting of the demo app.
 - Open‑source Python libraries: Streamlit, scikit‑learn, pandas, XGBoost, joblib.
